@@ -1,0 +1,52 @@
+/**
+ * Partial SCSS file for dev rant
+ *
+ * The styles in this file are almost the same as the CSS on
+ * the web app, this is by design.
+ */
+
+.rant-content {
+  width: 75%;
+  z-index: 2;
+  margin-bottom: 10px;
+}
+
+.profile-avatar-circle {
+  display: inline-block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  z-index: 1;
+  overflow: hidden;
+  margin-right: 10px;
+
+  img {
+    width: 100%;
+    display: block;
+    vertical-align: bottom;
+    float: left;
+    position: relative;
+  }
+}
+
+.username-details {
+  font-weight: bold;
+  color: #54556e;
+  font-size: 14px;
+  float: left;
+}
+
+.rantlist-tags a {
+  color: #aaaab8;
+  padding: 2px 4px;
+  border: 2px solid #E3E3E3;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #FFF;
+  display: inline-block;
+  margin-top: 4px;
+}
